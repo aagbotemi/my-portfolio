@@ -1,0 +1,314 @@
+body {
+    overflow-x: hidden;
+}
+
+header {
+    background: #833ab4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #fcb045, #fd1d1d, #833394); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+    width: 100%;
+    height: 350px;
+    font-family: 'Merriweather', serif;
+}
+
+.nav {
+    margin-right: 150px;
+    padding-top: 10px;
+}
+
+.nav-link {
+    color: #fff;
+    font-size: 20px;
+}
+
+.home .row .col-md-9 {
+    padding: 50px 0px 0px 60px;
+}
+
+.home .row .col-md-9 h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.home .row .col-md-9 .description {
+    width: 600px;
+    height: 150px;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding-left: 50px;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    opacity: 0.6;
+}
+
+.home .row .col-md-9 .description h4{
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.home .row .col-md-9 .description hr{
+    border-bottom: 3px dashed #ccc;
+    width: 350px;
+}
+
+.home .row .col-md-9 .description p{
+    font-size: 20px;
+    color: #fff;
+}
+
+.home .row .col-md-3 img {
+    width: 200px;
+    height: 250px;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 25%;
+    padding-top: 30px;
+}
+
+.details {
+    background: #334d50;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #cbcaa5, #334d50);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #cbcaa5, #334d50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.about {
+    font-family: 'Roboto', sans-serif;
+    width: 700px;
+    padding: 30px;
+}
+
+.about h3 {
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.about p {
+    font-size: 20px;
+}
+
+/*Project Section*/
+.project h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.card {
+    box-shadow: 0 9px 18px rgba(0,0,0,0.4), 0 6px 4px rgba(0,0,0,0.3);
+}
+
+.card .card-body a {
+    display: block;
+    background: linear-gradient(to right, #334d50, #cbcaa5) !important;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.card .card-body a i{
+    font-size: 17px;
+}
+
+/*Contact section*/
+.come{
+    height: 210px;
+    background: #22262f;
+    padding-top: 30px;
+}
+
+.my-contact h1 {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 100px;
+}
+
+.my-contact .contact-link {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+.my-contact .contact-link a i {
+    font-size: 40px;
+    color: #ccc;
+}
+
+.copyright {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 50px;
+}
+
+/*when the max width of the screen is 800px*/
+@media (max-width:800px) {    
+    header {
+        height: 250px;
+    }
+    .nav {
+        margin-right: 5px;
+        padding-top: 5px;
+    }
+    .nav-link {
+        color: #fff;
+        font-size: 15px;
+    }
+    .home .row .col-md-9 {
+        padding: 20px 0px 0px 20px;
+    }
+    .home .row .col-md-9 h1 {
+        font-size: 30px;
+        font-weight: bold;
+        color: #fff;
+    }
+    .home .row .col-md-9 .description {
+        width: 450px;
+        height: 120px;
+        margin-top: 10px;
+        border-radius: 40px;
+        padding-left: 20px;
+    }
+    .home .row .col-md-9 .description h4{
+        font-size: 30px;
+    }
+    .home .row .col-md-9 .description hr{
+        border-bottom: 3px dashed #ccc;
+        width: 160px;
+    }
+    .home .row .col-md-9 .description p{
+        font-size: 16px;
+        color: #efe;
+    }
+    .home .row .col-md-3 img {
+        display: none;
+    }
+    .about {
+        width: 500px;
+        padding: 20px;
+    }
+    .about h3 {
+        font-size: 25px;
+    }
+    .about p {
+        font-size: 18px;
+    }    
+    /*Project Section*/
+    .project {
+        overflow: hidden;
+    }
+    .project h1 {
+        text-decoration: underline;
+        margin-bottom: 30px;
+    }
+    .card {
+        height: 230px;
+        width: 210px;
+        margin: auto;
+    }
+    .card .card-body a {
+        font-size: 15px;
+    }
+    .card .card-body a i{
+        display: none;
+    }
+    /*Contact section*/
+    .come{
+        height: 170px;
+        padding-top: 20px;
+    }
+    .my-contact h1 {
+        padding-left: 45px;
+    }
+    .my-contact .contact-link {
+        width: 250px;
+    }
+    .my-contact .contact-link a i {
+        font-size: 30px;
+    }
+    .copyright {
+        margin-top: 30px;
+    }
+}
+
+/*when the max width of the screen is 500px*/
+@media (max-width:500px) {    
+    header {
+        height: 200px;
+    }
+    .nav {
+        margin-right: 0px;
+        padding-top: 3px;
+    }
+    .nav-link {
+        color: #fff;
+        font-size: 12px;
+    }
+    .home .row .col-md-9 {
+        padding: 10px 0px 0px 3px;
+    }
+    .home .row .col-md-9 h1 {
+        font-size: 20px;
+    }
+    .home .row .col-md-9 .description {
+        width: 250px;
+        height: 120px;
+        margin-top: 5px;
+        border-radius: 45px;
+        padding-left: 20px;
+    }
+    .home .row .col-md-9 .description h4{
+        font-size: 20px;
+    }
+    .home .row .col-md-9 .description hr{
+        width: 100px;
+    }
+    .home .row .col-md-9 .description p{
+        font-size: 14px;
+    }
+    .about {
+        width: 300px;
+        padding: 10px;
+    }
+    .about h3 {
+        font-size: 20px;
+    }
+    .about p {
+        font-size: 16px;
+    }    
+    /*Project Section*/
+    .project h1 {
+        text-decoration: underline;
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+    .card {
+        height: 230px;
+        width: 300px;
+    }
+    .card .card-body a i{
+        display: none;
+    }
+    /*Contact section*/
+    .come{
+        height: 130px;
+        padding-top: 15px;
+    }
+    .my-contact h1 {
+        padding-left: 35px;
+        font-size: 30px;
+    }
+    .my-contact .contact-link {
+        width: 200px;
+    }
+    .my-contact .contact-link a i {
+        font-size: 20px;
+    }
+    .copyright {
+        margin-top: 20px;
+    }
+}
