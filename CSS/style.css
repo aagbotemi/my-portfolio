@@ -1,0 +1,302 @@
+/*** GOOGLE FONT***/
+@import url('https://fonts.googleapis.com/css2?family=Kurale&family=Oxygen&family=Raleway&display=swap');
+
+*  {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+}
+.navbar {
+    background: rgb(19, 36, 65);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    transition: all 0.6s ease-in;
+    width: 100%;
+    z-index: 9999;
+}
+.navbar .navbar-brand {
+    margin-left: 2rem;
+    color: #e31b6d;
+    font-family: 'Kurale', serif;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+.navbar .navbar-brand:hover, .navbar .navbar-brand:focus {
+    color: #e31b6d;
+}
+.sticky { /**** STICKY NAVBAR STARTS HERE****/
+    background: rgb(19, 36, 65);
+}
+.sticky .navbar-nav .nav-item .nav-link {
+    color: #e31b6d;
+    font-weight: bold;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    color:  #e31b6d;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    font-size: 1.55rem;
+    border-bottom: 2px solid #e31b6d;
+}
+.navbar .navbar-nav {
+    margin-right: 2rem;
+}
+  /***** HAMBURGER ICON MENU *****/
+.navbar-toggler {
+    padding: 0;
+    border: 0;
+    width: 80px;
+}
+.navbar-toggler:focus {
+    outline: none;
+}
+.container {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu-icon {
+    display: grid;
+    place-items: center;
+    height: 25px;
+    width: 100px;
+    position: relative;
+    cursor: pointer;
+}
+.menu-icon > span {
+    width: 50px;
+    height: 2px;
+    background:  #e31b6d;
+    display: block;
+    transition: all 0.4s ease-in-out;
+}
+.menu-icon:hover span:nth-child(1) {
+    width: 15px;
+}
+.menu-icon:hover span:nth-child(2) {
+    width: 20px;
+}
+.menu-icon.active span:nth-child(1) {
+    transform-origin: center center;
+    transform: rotate(-45deg) translate(-4px, 8px);
+    width: 25px;
+}
+.menu-icon.active span:nth-child(2) {
+    transform: translateX(20px);
+    opacity: 0;
+}
+.menu-icon.active span:nth-child(3) {
+    transform-origin: center center;
+    transform: rotate(45deg) translate(-4px, -8px);
+    width: 25px;
+}
+.menu-icon .line-1 {
+    width: 24px;
+    justify-self: end;
+}
+.menu-icon .line-2 {
+    width: 22px;
+    justify-self: end;
+}
+.menu-icon .line-3 {
+    width: 28px;
+    justify-self: end;
+}
+/***** HAMBURGER ICON MENU STOP HERE*****/
+/***** NAVBAR ENDS HERE*****/
+
+/****** JUMBOTRON STARTS HERE******/
+.banner {
+    width: 100%;
+    height: 90vh;
+    background: url(../images/walling-JYoWTJMJNFo-unsplash.jpg), center, no-repeat;
+    background-size: cover;
+    padding: 0px 20px;
+}
+.banner .name {
+    padding-top: 15rem;
+    font-weight: bold;
+    font-size: 2.8rem;
+}
+.banner .name span {
+    color: #cf1864;
+    font-family: 'Kurale', serif;
+    font-size: 3rem;
+}
+.banner #describe {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2.7rem;
+    font-family: 'Kurale', serif;
+}
+.banner .btn {
+    background-color: #cf1864;
+    padding: 0.5rem 1.8rem;
+    /* margin: 0.75rem 20rem 0rem 0rem; */
+}
+.banner .btn a {
+    color: #fff;
+    font-size: 1.1rem;
+    font-family: 'Raleway', sans-serif;
+}
+.banner .btn:hover {
+    background-color: #860e40;
+    box-shadow: 2px 3px 1px rgba(168, 30, 88, 0.897);
+}
+.banner .btn:hover a {
+    text-decoration: none;
+    color: #cdcdcd;
+}
+/****** JUMBOTRON ENDS HERE******/
+
+/***** ABOUT SECTION STARTS HERE *****/
+.about {
+    width: 100%;
+    padding: 3rem 4rem;
+    margin-bottom: 4rem;
+}
+.about h1 {
+    color: #cdcdcd;
+    text-shadow: 2px 3px 1px rgba(0, 0, 0, 0.67);
+    font-weight: bold;
+}
+.about h1 span {
+    color: #cf1864;
+}
+.about ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    -ms-grid-columns: repeat(6, 1fr);
+    margin-right: 1rem;
+    width: 60%;
+}
+.about ul li:before {
+    content: "▹";
+    color: #cf1864;
+    padding-right: 0.5rem;
+}
+.about ul li .fab {
+    font-size: 2.8rem;
+    margin-top: 0.7rem;
+}
+.about ul li .fa-html5 {
+    color: #E85527;
+}
+.about ul li .fa-css3-alt {
+    color: #264de4;
+}
+.about ul li .fa-js {
+    color: #F0DB4F;
+}
+.about ul li .fa-bootstrap {
+    color: #7e3969;
+}
+.about ul li .fa-git {
+    color: #F1502F;
+}
+.about ul li .fa-github {
+    color: #F4CBB2;
+}
+/***** ABOUT SECTION ENDS HERE *****/
+
+/****** PORTFOLIO SECTION STARTS HERE******/
+.project {
+    padding-top: 10rem;
+    background-color: rgba(77, 77, 77, 0.418);
+}
+.project h1 {
+    width: 7.5rem;
+    margin: auto;
+    margin-bottom: 1rem;
+    border-bottom: 4px solid rgb(19, 36, 65);
+}
+.project .row .col-lg-4 .card {
+    height: 70vh;
+    color: #000;
+    box-shadow: 2px 3px 7px 2px rgba(0, 0, 0, 0.67);
+}
+.project .row .col-lg-4 .card .card-body .card-title {
+    margin-top: -1rem;
+}
+.project .row .col-lg-4 .card .card-body .card-text {
+    margin-top: -0.5rem;
+}
+.project .row .col-lg-4 .card .card-body .tools {
+    margin-top: -0.8rem;
+    font-style: italic;
+}
+.project .row .col-lg-4 .card .card-body .link a .fa {
+    font-size: 1.7rem;
+    margin-left: 0.5rem;
+    color: rgb(19, 36, 65);
+}
+.project .row .col-lg-4 .card .card-body .link a .fa:hover {
+    color:  #cf1864;
+}
+/****** PORTFOLIO SECTION ENDS HERE******/
+
+/****** CONTACT SECTION STARTS HERE******/
+.contact {
+    padding: 0rem 3rem;
+    position: relative;
+}
+.contact .btn {
+    background-color: #cf1864;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 150%);
+    -ms-transform: translate(-50%, 150%);
+    padding: 0.7rem 2.5rem;
+    box-shadow: 3px 4px 2px rgba(0, 0, 0, 0.4);
+}
+.contact .btn a {
+    color: #fff;
+    font-size: 1.1rem;
+    font-family: 'Raleway', sans-serif;
+}
+.contact .btn:hover {
+    background-color: #860e40;
+    box-shadow: 2px 3px 1px rgba(168, 30, 88, 0.897);
+}
+.contact .btn:hover a {
+    text-decoration: none;
+    color: #cdcdcd;
+}
+/****** CONTACT SECTION ENDS HERE******/
+
+/****** FOOTER STARTS HERE******/
+.media-link {
+    display: flex;
+    justify-content: center;
+}
+.media-link a {
+    margin-right: 2rem;
+    
+}
+.media-link a i{
+    background:rgb(19, 36, 65);
+    color: #cf1864;
+    padding: 2rem;
+    font-size: 2.5rem;
+    border-radius: 50%;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.4);
+}
+.copyright {
+    display: flex;
+    justify-content: center;
+}
+/****** FOOTER ENDS HERE******/

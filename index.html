@@ -3,155 +3,242 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Bootstrap link-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <!--Font Awesome link-->
-    <script src="https://kit.fontawesome.com/6629e20d42.js" crossorigin="anonymous"></script>
-    <!--Google Font-->
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap" rel="stylesheet">
-    <!--CSS link-->
-    <link rel="stylesheet" href="style.css">
+
+    <!-- SEO OPTIMIZATION -->
+    <meta name="author" content="aagbotemi">
+
+    <meta name="description" content="My Portfolio Website about Front-End Web Development. I am looking for a Front End Developer job, eager to be a part of the team and become a valuable employee of the company.">
+
+    <meta name="keywords" content="front end web developer, find web developer, looking for front end developer &amp; software developer">
+
     <!--Title-->
-    <title>My Portfolio</title>
+    <title>ABIODUN AWOYEMI</title>
+
+    <!--Bootstrap link-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!--ANIMATE ON SCROLL-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!--CSS link-->
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/mobile.css">
 </head>
 <body>
-    <header>
-        <div class="container-fluid header p-0">
-            <nav class="menu">
-                <ul class="nav justify-content-end">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#projects">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </nav>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">AAGboTemi</a>
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="container">
+                <span class="menu-icon">
+                    <span class="line-1"></span>
+                    <span class="line-2"></span>
+                    <span class="line-3"></span>
+                </span>
+            </span>
+        </button>
+            
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#project">Project</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
         </div>
-        <div class="home container-fluid" id="home-page">
-            <div class="row">
-                <div class="col-md-9 col-sm-12">
-                    <h1>
-                        Hi, I'm Abiodun Awoyemi
-                    </h1>
-                    <div class="description">
-                        <h4>Frontend Developer</h4>
-                        <hr>
-                        <p>HTML | CSS | Bootstrap | jQuery | JavaScript | React </p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-12">
-                    <img src="https://scontent.flos2-1.fna.fbcdn.net/v/t1.0-9/88423258_2903414529719569_2522988897772765184_o.jpg?_nc_cat=106&_nc_sid=8bfeb9&_nc_eui2=AeGF0u6GygbnudxnTuAJKjwZsGZ1x1yla3OwZnXHXKVrc1FwCp4gy9iXuNMKSi843nh9KMRONZWbMXWdD93BEK4a&_nc_ohc=W7VN4vfZvsAAX_0UeyT&_nc_ht=scontent.flos2-1.fna&oh=962d13446f8e09496fd263939ddb432b&oe=5EEB0C3F" alt="photo">
-                </div>
-            </div>
-        </div>
-    </header>
-    
-    <main>
-        <div class="details">
-            <div class="container">
-                <!--About Section-->
-                <div class="about" id="about">
-                    <h3>ABOUT ME</h3>
-                    <p>I'm a frontend developer. I'm passionate about making the web accessible to everyone and I enjoy solving complex problems using web technologies as I provide top notch solution that helps to solve human problem. I aspire to be a world class, full stack developer.</p>
-                </div>
+    </nav><!-- NAVBAR ENDS HERE-->
 
-                <!--Project Section-->
-                <div class="project" id="projects">
-                    <h1 class="text-center">PROJECTS</h1>
-                    <div class="cards">
-                        <div class="d-flex flex-row justify-content-center flex-wrap">
-                            <div class="row row-cols-1 row-cols-md-3">
-                            <!--Card 1-->
-                            <div class="col mb-4">
-                                <div class="card">
-                                    <img src="https://media.npr.org/assets/img/2020/01/22/sciencesource_ss2413465-bd5e295079f203794a6d35a99a4db82fa5615d4d-s800-c85.jpg" class="card-img-top img-responsive" alt="image-of-corona-virus" height="150px">
-                                    <div class="card-body">
-                                        <a href="https://gbotemi-tech.github.io/covid-19-voice/" class="btn btn-primary"><i class="fab fa-github"></i>COVID-19 VOICE</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--Card 2-->
-                            <div class="col mb-4">
-                                <div class="card">
-                                    <img src="https://cdn.pixabay.com/photo/2015/04/23/17/41/javascript-736400_960_720.png" class="card-img-top img-responsive" alt="javascript-png" height="150px">
-                                    <div class="card-body">
-                                        <a href="https://gbotemi-tech.github.io/modal-popup/" class="btn btn-primary"><i class="fab fa-github"></i>MODAL POPUP</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--Card 3-->
-                            <div class="col mb-4">
-                                <div class="card">
-                                    <img src="https://cdn.pixabay.com/photo/2014/04/02/10/53/clock-304841_960_720.png" class="card-img-top img-responsive" alt="analogue-clock" height="150px">
-                                    <div class="card-body">
-                                        <a href="https://gbotemi-tech.github.io/javascript-analogue-clock/" class="btn btn-primary"><i class="fab fa-github"></i>ANALOGUE CLOCK</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--Card 4-->
-                            <div class="col mb-4">
-                                <div class="card">
-                                    <img src="https://cdn.pixabay.com/photo/2016/03/31/19/50/checklist-1295319_960_720.png" class="card-img-top img-responsive" alt="to-do-list-png" height="150px">
-                                    <div class="card-body">
-                                        <a href="https://gbotemi-tech.github.io/to-do-app/" class="btn btn-primary"><i class="fab fa-github"></i>TO-DO APP</a>
-                                    </div>
-                                </div>
-                            </div><!--Card 5-->
-                            <div class="col mb-4">
-                                <div class="card">
-                                    <img src="https://cdn.pixabay.com/photo/2019/06/19/15/41/calculator-4285211_960_720.png" class="card-img-top img-responsive" alt="calculator-png" height="150px">
-                                    <div class="card-body">
-                                        <a href="https://github.com/gbotemi-tech/tip-calculator" class="btn btn-primary"><i class="fab fa-github"></i>TIP CALCULATOR</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--Card 6-->
-                            <div class="col mb-4">
-                                <div class="card">
-                                    <img src="https://cdn.pixabay.com/photo/2015/04/23/17/41/javascript-736400_960_720.png" class="card-img-top img-responsive" alt="javascript-png" height="150px">
-                                    <div class="card-body">
-                                        <a href="https://gbotemi-tech.github.io/create-account-form/" class="btn btn-primary"><i class="fab fa-github"></i>SIGN-UP FORM</a>
-                                    </div>
-                                </div>
+    <!-- JUMBOTRON STARTS HERE -->
+    <main>
+        <div class="banner text-center" id="home">
+            <div class="name">Hi, I am <span>Abiodun</span></div>
+            <div id="describe"></div>
+            <div class="btn"><a href="mailto:aabiodunawoyemi@gmail.com">Hire Me</a></div>
+        </div>
+    </main>
+    <!-- JUMBOTRON ENDS HERE -->
+
+    <section>
+        <!-- ABOUT SECTION STARTS HERE-->
+        <div class="about mt-5" id="about">
+            <h1 class="text-center mb-3" data-aos="fade-right" data-aos-offset="100" data-aos-easing="linear" data-aos-duration="1500">About <span>Me</span></h1>
+            <p>I'm a frontend software developer. I'm passionate about making the web accessible to everyone and I enjoy solving complex problems using web technologies as I provide top notch solution that helps to solve human problem.</p>
+            <p>I am a passionate and goal-driven frontend developer looking for an opportunity to apply my highly refined programming skills to help real-life businesses. I am team oriented and get along with others when working in a group setting. I also have the ability to work independently while staying on schedule and meeting those tight deadlines.</p>
+            <p>Below is a list of my current technical skills:</p>
+            <ul data-aos="fade-right" data-aos-offset="50" data-aos-easing="ease-in-sine" data-aos-duration="1500">
+                <li class="cell-A"><i class="fab fa-html5"></i> </li>
+                <li class="cell-B"><i class="fab fa-css3-alt"></i></li>
+                <li class="cell-C"><i class="fab fa-js"></i></li>
+                <li class="cell-D"><i class="fab fa-bootstrap"></i></li>
+                <li class="cell-E"><i class="fab fa-github"></i></li>
+                <li class="cell-F"><i class="fab fa-git"></i></li>
+            </ul>
+        </div>
+        <!-- ABOUT SECTION ENDS HERE-->
+
+        <!-- PORTFOLIO SECTION STARTS HERE-->
+        <div class="project mt-5 p-5" id="project">
+            <h1 class="text-center mb-5" data-aos="zoom-out" data-aos-easing="ease-in-back" data-aos-delay="50" data-aos-offset="50" data-aos-duration="500">Projects</h1>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card mb-5" data-aos="fade-right" data-aos-easing="#example-anchor" data-aos-delay="10" data-aos-offset="50" data-aos-duration="1000">
+                        <img class="card-img-top img-fluid" src="./images/ugmonk-capture.png" alt="Ugmonk clone">
+                        <div class="card-body border border-top">
+                            <h5 class="card-title"><strong>Ugmonk</strong></h5>
+                            <p class="card-text">This is a recreation of an e-commerce website to get well designed aesthetic objects.  </p>
+                            <p class="tools text-right">HTML5, CSS3, Bootstrap, JavaScript</p>
+                            <div class="link text-center mr-3">
+                                <a href="https://github.com/aagbotemi/ugmonk" target="_blank"><i class="fa fa-github"></i></a>
+                                <a href="https://ugmonk.netlify.app/" target="_blank"><i class="fa fa-external-link-alt"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </main>
-
-    <footer>
-        <!--Contact section-->
-        <div class="come" id=contact>
-            <div class="container">
-                <div class="my-contact">
-                    <h1>Contact</h1>
-                    <div class="contact-link">
-                        <!--GitHub Link-->
-                        <a href="https://github.com/gbotemi-tech" target="_blank"><i class="fab fa-github-square"></i></a>
-                        <!--LinkedIn Link-->
-                        <a href="https://www.linkedin.com/in/abiodun-awoyemi-1ab8b3165" target="_blank"><i class="fab fa-linkedin"></i></a>
-                        <!--Twitter Link-->
-                        <a href="https://twitter.com/AwoyemiBiodun" target="_blank"><i class="fab fa-twitter-square"></i></a>
-                        <!--Facebook Link-->
-                        <a href="https://www.facebook.com/abiodunoluwagbotemi" target="_blank"><i class="fab fa-facebook-square"></i></a>
-                        <!--Email link-->
-                        <a href="mailto:aabiodunawoyemi@gmail.com" target="_blank"><i class="fas fa-envelope-open-text"></i></a>
+        
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card mb-5" data-aos="fade-right" data-aos-easing="#example-anchor" data-aos-delay="50" data-aos-offset="80" data-aos-duration="1500">
+                        <img class="card-img-top img-fluid" src="./images/to-do.png" alt="ToDo App">
+                        <div class="card-body border border-top">
+                            <h5 class="card-title"><strong>ToDo App</strong></h5>
+                            <p class="card-text">This is a JavaScript ToDo App to track daily activities</p>
+                            <p class="tools text-right">HTML5, CSS3, JavaScript</p>
+                            <div class="link text-center mr-3">
+                                <a href="https://github.com/aagbotemi/toDoApp" target="_blank"><i class="fa fa-github"></i></a>
+                                <a href="https://jstodoapp.netlify.app/" target="_blank"><i class="fa fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="copyright text-right">
-                    &copy; 2020.
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card mb-5" data-aos="fade-right" data-aos-easing="#example-anchor" data-aos-delay="70" data-aos-offset="80" data-aos-duration="1800">
+                        <img class="card-img-top img-fluid" src="./images/green-school-capture.png" alt="Arizona School">
+                        <div class="card-body border border-top">
+                            <h5 class="card-title"><strong>Arizona School</strong></h5>
+                            <p class="card-text">The website of a private secondary school.</p>
+                            <p class="tools text-right">HTML5, CSS3, Bootstrap, AOS</p>
+                            <div class="link text-center mr-3">
+                                <a href="https://github.com/aagbotemi/greenpalms-schools" target="_blank"><i class="fa fa-github"></i></a>
+                                <a href="https://greenpalms-school.netlify.app/" target="_blank"><i class="fa fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card mb-5" data-aos="fade-right" data-aos-easing="#example-anchor" data-aos-delay="70" data-aos-offset="80" data-aos-duration="1800">
+                        <img class="card-img-top img-fluid" src="./images/clock.png" alt="Digital Clock">
+                        <div class="card-body border border-top">
+                            <h5 class="card-title"><strong>Digital Clock</strong></h5>
+                            <p class="card-text">This is a digital clock JavaScript web app.</p>
+                            <p class="tools text-right">HTML5, CSS3, JavaScript</p>
+                            <div class="link text-center mr-3">
+                                <a href="https://github.com/aagbotemi/digital-clock" target="_blank"><i class="fa fa-github"></i></a>
+                                <a href="https://12-24-clock.netlify.app/" target="_blank"><i class="fa fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card mb-5" data-aos="fade-right" data-aos-easing="#example-anchor" data-aos-delay="50" data-aos-offset="80" data-aos-duration="1500">
+                        <img class="card-img-top img-fluid" src="./images/real-estate.png" alt="Card image cap">
+                        <div class="card-body border border-top">
+                            <h5 class="card-title"><strong>GreenPalms Real Estate</strong></h5>
+                            <p class="card-text">The website of a real estate company</p>
+                            <p class="tools text-right">HTML5, CSS3, Bootstrap, JavaScript</p>
+                            <div class="link text-center mr-3">
+                                <a href="https://github.com/aagbotemi/greenpalms-real-estate" target="_blank"><i class="fa fa-github"></i></a>
+                                <a href="https://greenpalms.netlify.app/" target="_blank"><i class="fa fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card mb-5" data-aos="fade-right" data-aos-easing="#example-anchor" data-aos-delay="10" data-aos-offset="50" data-aos-duration="1000">
+                        <img class="card-img-top img-fluid" src="./images/form-register.png" alt="Card image cap">
+                        <div class="card-body border border-top">
+                            <h5 class="card-title"><strong>Sign Up Form</strong></h5>
+                            <p class="card-text">This is a JavaScript sign up form that validates with the date of registration.</p>
+                            <p class="tools text-right">HTML5, CSS3, JavaScript</p>
+                            <div class="link text-center mr-3">
+                                <a href="https://github.com/aagbotemi/form-register" target="_blank"><i class="fa fa-github"></i></a>
+                                <a href="https://form-register.netlify.app/" target="_blank"><i class="fa fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card mb-5" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-easing="#example-anchor" data-aos-delay="10" data-aos-offset="50" data-aos-duration="1000">
+                        <img class="card-img-top img-fluid" src="./images/calculator.png" alt="Calculator">
+                        <div class="card-body border border-top">
+                            <h5 class="card-title"><strong>Calculator</strong></h5>
+                            <p class="card-text">This is a simple vanilla JavaScript calculator app.</p>
+                            <p class="tools text-right">HTML5, CSS3, JavaScript</p>
+                            <div class="link text-center mr-3">
+                                <a href="https://github.com/aagbotemi/js-calculator" target="_blank"><i class="fa fa-github"></i></a>
+                                <a href="https://arithmetic-calculator.netlify.app/" target="_blank"><i class="fa fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- ROW ENDS HERE-->
         </div>
+        <!-- PORTFOLIO SECTION ENDS HERE-->
+
+        <!-- CONTACT SECTION STARTS HERE-->
+        <div class="contact mt-5 p-5" id="contact">
+            <h1 class="text-center mb-5" data-aos="zoom-in" data-aos-anchor-placement="top-center"  data-aos-easing="#example-anchor" data-aos-delay="10" data-aos-offset="5" data-aos-duration="500"><strong>Get in touch</strong></h1>
+            <p class="text-center">I am currently looking for job opporunities. Kindly reach out to me if there are job opportunities you'd love me to know about. If you want me to create a project or maintain an existing one, feel free to drop me a message.</p>
+            <div class="btn"><a href="mailto:aabiodunawoyemi@gmail.com">Hire Me</a></div>
+        </div>
+        <!-- CONTACT SECTION ENDS HERE-->
+    </section>
+
+    <!-- FOOTER STARTS HERE-->
+    <footer class="mt-5 pt-5 pb-3">
+        <div class="media-link" data-aos="fade-right" data-aos-offset="50" data-aos-easing="ease-in-sine" data-aos-duration="1500">
+            <a href="https://github.com/aagbotemi"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/abiodun-awoyemi-1ab8b3165/"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://twitter.com/_abiodunAwoyemi"><i class="fab fa-twitter"></i></a>
+        </div>
+        <p class="copyright mt-5">
+            Copyright &amp;copy2020. My Portfolio by Abiodun Awoyemi.
+        </p>
     </footer>
+    <!-- FOOTER ENDS HERE-->
+
+    <!-- GSAP ANIMATION -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+
+    <!--Font Awesome link-->
+    <script src="https://kit.fontawesome.com/6629e20d42.js" crossorigin="anonymous"></script>
+
+    <!--ANIMATION-ON-SCROLL-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- jQuery, Popper.js, Bootstrap.js-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <!--typewriter.js-->
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+    <!-- VANILLA JS-->
+    <script src="script.js"></script>
 </body>
 </html>

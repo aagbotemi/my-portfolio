@@ -1,0 +1,182 @@
+@media (min-width:992px) and (max-width:1200px) {
+    /***BANNER JUMBOTRON STARTS HERE***/
+    .banner {
+        height: 80vh;
+    }
+    .banner .name {
+        padding-top: 11rem;
+    }
+    /***BANNER JUMBOTRON ENDS HERE***/
+
+    /**** ABOUT STARTS HERE*****/
+    .about ul {
+        grid-template-columns: repeat(6, 1fr);
+        width: 80%;
+    }
+    /**** ABOUT ENDS HERE*****/
+
+    /**** PORTFOLIO STARTS HERE****/
+    .project .row .col-lg-4 .card {
+        height: 67vh;
+        color: #000;
+    }
+    /**** PORTFOLIO ENDS HERE****/
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .navbar .navbar-nav {
+        margin-bottom: 0.8rem;
+    }
+    /***BANNER JUMBOTRON STARTS HERE***/
+    .banner {
+        height: 80vh;
+    }
+    .banner .name {
+        padding-top: 10rem;
+    }
+    /***BANNER JUMBOTRON ENDS HERE***/
+
+    /**** ABOUT STARTS HERE*****/
+    .about ul {
+        grid-template-columns: repeat(6, 1fr);
+        width: 90%;
+    }
+    /**** ABOUT ENDS HERE*****/
+
+    /**** PORTFOLIO STARTS HERE****/
+    .project .row .col-lg-4 .card {
+        height: 75vh;
+        color: #000;
+    }
+    /**** PORTFOLIO ENDS HERE****/
+
+    /**** CONTACT STARTS HERE****/
+    .contact .btn {
+        transform: translate(-50%, 200%);
+    }
+    /**** CONTACT ENDS HERE****/
+}
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .navbar .navbar-nav {
+        margin-bottom: 0.8rem;
+    }
+    /***BANNER JUMBOTRON STARTS HERE***/
+    .banner {
+        height: 70vh;
+        background: url(../images/medium.jpg), center, no-repeat;
+        background-size: cover;
+    }
+    .banner .name {
+        padding-top: 10rem;
+        font-size: 2.2rem;
+    }
+    .banner .name span {
+        font-size: 2.65rem;
+    }
+    .banner #describe {
+        font-size: 2.4rem;
+    }
+    /***BANNER JUMBOTRON ENDS HERE***/
+
+    /**** ABOUT STARTS HERE*****/
+    .about ul {
+        grid-template-columns: repeat(4, 1fr);
+        width: 100%;
+    }
+    .fab {
+        margin-bottom: 1rem;
+    }
+    /**** ABOUT ENDS HERE*****/
+
+    /**** PORTFOLIO STARTS HERE****/
+    .project .row .col-lg-4 .card {
+        height: 95vh;
+        color: #000;
+    }
+    /**** PORTFOLIO ENDS HERE****/
+    
+    /****** CONTACT SECTION STARTS HERE******/
+    .contact p {
+        padding: 0rem 1.7rem;
+    }
+    .contact .btn {
+        transform: translate(-50%, 200%);
+    }
+    /****** CONTACT SECTION ENDS HERE******/
+}
+
+@media only screen and (max-width: 575px) {
+    .navbar .navbar-brand {
+        margin-left: 0.5rem;
+        font-size: 1.5rem;
+    }
+    .navbar .navbar-nav {
+        margin-bottom: 0.8rem;
+    }
+    .navbar .navbar-nav .nav-item .nav-link {
+        font-size: 1.3rem;
+    }
+    .navbar .navbar-nav .nav-item .nav-link:hover {
+        border-bottom: none;
+    }
+    /***BANNER JUMBOTRON STARTS HERE***/
+    .banner {
+        height: 70vh;
+        background: url(../images/medium.jpg), center, no-repeat;
+        background-size: cover;
+    }
+    .banner .name {
+        padding-top: 8rem;
+        font-size: 1.95rem;
+    }
+    .banner .name span {
+        font-size: 2.5rem;
+    }
+    .banner #describe {
+        font-size: 1.65rem;
+    }
+    /***BANNER JUMBOTRON ENDS HERE***/
+
+    /**** ABOUT STARTS HERE*****/
+    .about ul {
+        grid-template-columns: repeat(3, 1fr);
+        width: 100%;
+    }
+    .fab {
+        margin-bottom: 1rem;
+    }
+    /**** ABOUT ENDS HERE*****/
+
+    /**** PORTFOLIO STARTS HERE****/
+    .project .row .col-lg-4 .card {
+        height: 73vh;
+        color: #000;
+    }
+    /**** PORTFOLIO ENDS HERE****/
+
+    /****** CONTACT SECTION STARTS HERE******/
+    .contact p {
+        padding: 0rem 1.15rem;
+    }
+    .contact .btn {
+        transform: translate(-50%, 250%);
+    }
+    /****** CONTACT SECTION ENDS HERE******/
+
+    /****** FOOTER STARTS HERE******/
+    .media-link a i{
+        padding: 1.7rem;
+        font-size: 1.7rem;
+    }
+    /****** FOOTER ENDS HERE******/
+}
+
+@media only screen and (max-width: 320px) {
+    /****** CONTACT SECTION STARTS HERE******/
+    .contact .btn {
+        transform: translate(-50%, 320%);
+    }
+    /****** CONTACT SECTION ENDS HERE******/
+}
