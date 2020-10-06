@@ -48,7 +48,7 @@
 
     /**** PORTFOLIO STARTS HERE****/
     .project {
-        padding: 2rem 2.2rem;
+        padding: -1.5rem;
     }
     .project .row .col-lg-4 .card {
         height: 75vh;
@@ -104,7 +104,7 @@
 
     /**** PORTFOLIO STARTS HERE****/
     .project {
-        padding: 2rem 1rem;
+        padding: -1.5rem;
     }
     .project .row .col-lg-4 .card {
         height: 95vh;
@@ -172,7 +172,7 @@
 
     /**** PORTFOLIO STARTS HERE****/
     .project {
-        padding: 2rem 1rem;
+        padding: -1.5rem;
     }
     .project .row .col-lg-4 .card {
         height: 73vh;
@@ -182,7 +182,7 @@
 
     /****** CONTACT SECTION STARTS HERE******/
     .contact {
-        padding: 2rem 2.2rem;
+        padding: 2rem 1rem;
     }
     .contact p {
         padding: 0rem 1.15rem;
@@ -209,7 +209,7 @@
 
     /****** PORTFOLIO SECTION STARTS HERE******/
     .project {
-        padding: 1.7rem 1rem;
+        padding: -1.6rem;
     }
     /****** PORTFOLIO SECTION ENDS HERE******/
 

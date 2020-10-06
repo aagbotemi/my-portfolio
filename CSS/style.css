@@ -297,5 +297,6 @@ body{
 .copyright {
     display: flex;
     justify-content: center;
+    padding: 0rem 1rem;
 }
 /****** FOOTER ENDS HERE******/
