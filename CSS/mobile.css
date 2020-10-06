@@ -37,6 +37,9 @@
     /***BANNER JUMBOTRON ENDS HERE***/
 
     /**** ABOUT STARTS HERE*****/
+    .about {
+        padding: 2rem 2.2rem;
+    }
     .about ul {
         grid-template-columns: repeat(6, 1fr);
         width: 90%;
@@ -44,6 +47,9 @@
     /**** ABOUT ENDS HERE*****/
 
     /**** PORTFOLIO STARTS HERE****/
+    .project {
+        padding: 2rem 2.2rem;
+    }
     .project .row .col-lg-4 .card {
         height: 75vh;
         color: #000;
@@ -51,6 +57,9 @@
     /**** PORTFOLIO ENDS HERE****/
 
     /**** CONTACT STARTS HERE****/
+    .contact {
+        padding: 2rem 2.2rem;
+    }
     .contact .btn {
         transform: translate(-50%, 200%);
     }
@@ -81,6 +90,9 @@
     /***BANNER JUMBOTRON ENDS HERE***/
 
     /**** ABOUT STARTS HERE*****/
+    .about {
+        padding: 2rem 1rem;
+    }
     .about ul {
         grid-template-columns: repeat(4, 1fr);
         width: 100%;
@@ -91,6 +103,9 @@
     /**** ABOUT ENDS HERE*****/
 
     /**** PORTFOLIO STARTS HERE****/
+    .project {
+        padding: 2rem 1rem;
+    }
     .project .row .col-lg-4 .card {
         height: 95vh;
         color: #000;
@@ -98,6 +113,9 @@
     /**** PORTFOLIO ENDS HERE****/
     
     /****** CONTACT SECTION STARTS HERE******/
+    .contact {
+        padding: 2rem 1rem;
+    }
     .contact p {
         padding: 0rem 1.7rem;
     }
@@ -140,6 +158,9 @@
     /***BANNER JUMBOTRON ENDS HERE***/
 
     /**** ABOUT STARTS HERE*****/
+    .about {
+        padding: 2rem 1rem;
+    }
     .about ul {
         grid-template-columns: repeat(3, 1fr);
         width: 100%;
@@ -150,6 +171,9 @@
     /**** ABOUT ENDS HERE*****/
 
     /**** PORTFOLIO STARTS HERE****/
+    .project {
+        padding: 2rem 1rem;
+    }
     .project .row .col-lg-4 .card {
         height: 73vh;
         color: #000;
@@ -157,11 +181,14 @@
     /**** PORTFOLIO ENDS HERE****/
 
     /****** CONTACT SECTION STARTS HERE******/
+    .contact {
+        padding: 2rem 2.2rem;
+    }
     .contact p {
         padding: 0rem 1.15rem;
     }
     .contact .btn {
-        transform: translate(-50%, 250%);
+        transform: translate(-50%, 300%);
     }
     /****** CONTACT SECTION ENDS HERE******/
 
@@ -174,9 +201,24 @@
 }
 
 @media only screen and (max-width: 320px) {
+    /****** ABOUT SECTION STARTS HERE******/
+    .about {
+        padding: 1.7rem 1rem;
+    }
+    /****** ABOUT SECTION ENDS HERE******/
+
+    /****** PORTFOLIO SECTION STARTS HERE******/
+    .project {
+        padding: 1.7rem 1rem;
+    }
+    /****** PORTFOLIO SECTION ENDS HERE******/
+
     /****** CONTACT SECTION STARTS HERE******/
+    .contact {
+        padding: 1.7rem 1rem;
+    }
     .contact .btn {
-        transform: translate(-50%, 320%);
+        transform: translate(-50%, 360%);
     }
     /****** CONTACT SECTION ENDS HERE******/
 }
